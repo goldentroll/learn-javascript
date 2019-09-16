@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
+    <head>
+      <script>
+          // put your code here
+          // write a function to calculate the factorial of a number.
+          function factorial(n){  // creates a function to calculate the factorial of the number entered by the user.
+            if (n < 0){ // validation for positive number
+              return console.log('Please enter a positive number/integer.');}
+            else if (n === 0){ // checks if number is 0 and returns 1 as the answer.
+              let answer = 1;
+              return console.log(`The factorial of ${n} = ${answer}.`);}
+            else {
+              answer = n * factorial(n-1);
+              return console.log(`The factorial of ${n} is ${answer}`);
+              }
+          }
+          // log the result to the console.
+          let userInput = ''; // initializes the number from the user
+          let result = factorial(userInput);
+      </script>
+    </head>
 <body>
   <h1>JavaScript Functions</h1>
-</aside>
-<script>
-// put your code here
-// write a function to calculate the factorial of a number.
-// log the result to the console.
-
-</script>
+</aside> -->
 </body>
 </html>

@@ -26,4 +26,4 @@ Create a simple Rent Reciept
 
 ```
 3. Use console.log to log these info in the console.
-![]()
+![marksheet.png](marksheet.png)

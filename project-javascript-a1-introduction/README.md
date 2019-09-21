@@ -14,16 +14,12 @@ Create a simple Rent Reciept
 <!DOCTYPE html>
 <html>
 <body>
-
-<p id="demo"></p>
-
 <script>
 // your code here
-</script> 
-
+</script>
 </body>
 </html>
 
 ```
 3. Use console.log to log these info in the console.
-![marksheet.png](marksheet.png)
+![marksheet.jpg](marksheet.jpg)

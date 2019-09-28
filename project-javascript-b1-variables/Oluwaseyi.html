@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cost Calculator</title>
+    <script>
+        let annualCost = 35000;
+        let inflationRate = 5;
+        let yearsAttendance = 4;
+        let yearsUntilCollege = 5;
+        let collegeCost = annualCost;
+        let inflation = 0;
+        for (i = 0; i < yearsAttendance-1; i++){
+            inflation = 0.05 * collegeCost;
+            collegeCost = collegeCost + inflation;
+           };
+        console.log(`Annual College costs: $${annualCost}, College Cost Inflation rate: ${inflationRate}% \nand expected years of attendance is ${yearsAttendance}. You have to pay $${collegeCost}`);
+        annualSavings = collegeCost/yearsUntilCollege;
+        console.log(`Annual Savings should be: $${annualSavings}`);
+    </script>
+<body>
+
+</body>
+</html>

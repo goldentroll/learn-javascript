@@ -34,7 +34,7 @@ Dog Food Recommender
 * Energy: Medium
 * Height: 9 inches
 
-Height and Weight are number.
+Height is number.
 
 4. Recommend Dog Food based on this conditions:
 * If Size is Small and Height < 9, Log "Food: Dry Dog Food"

@@ -26,10 +26,18 @@ Marksheet
 3. Use console.log to log these info in the console.
 
 | Subject  | Full Marks |Pass Marks |Obtained |
+| --- | --- | --- | --- |
 | Math  | 100  | 50  | 80  |
 | Science  | 100  | 50  | 60  |
 | Computer  | 100  | 50  | 40  |
 | Average  | 60  |
+
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 
 Note:
 * No need to show lines

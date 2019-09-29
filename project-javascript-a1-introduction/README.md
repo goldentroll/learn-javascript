@@ -22,12 +22,21 @@ Student's Marksheet
 
 ```
 3. Use console.log to log these info in the console.
+
+
 | Subject  | Full Marks |Pass Marks |Obtained |
 | ------------- | ------------- | ------------- | ------------- |
 | Math  | 100  | 50  | 92  |
 | Math  | 100  | 50  | 92  |
 | Math  | 100  | 50  | 92  |
 | Math  | 100  | 50  | 92  |
+
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 
 ![marksheet.jpg](marksheet.jpg)
 Note:

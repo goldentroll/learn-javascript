@@ -40,7 +40,6 @@ Shoes Shop
 - Sneakers
 - Sandals
 - Boat shoes
--
 - Dress Shoes
 
 4. Log first item and last item into console. For last item use `length` property.

@@ -37,8 +37,9 @@ Marksheet
 
 Note:
 * No need to show lines
-* GRAND TOTAL can not be  60. use + operator to sum marks and / operator to calculate the average.
-* User `\t` to make space between columns. first line would be like this:
+* Do not use variables
+* Average can not be 60 itself. use + operator to sum marks and / operator to calculate the average.
+* User `\t` to make space between columns. First line would be like this:
 ```
 console.log("Subjects \t Full Marks \t Pass Marks \t Obtained");
 ```

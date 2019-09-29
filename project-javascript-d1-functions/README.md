@@ -41,7 +41,7 @@ Date Formatter
 
 All variables are number.
 
-4. Declare a function named `showDayName` that get dayOfWeek and log day name into the console. For example it gets `1` and log `Monday`
+4. Declare a function named `showDayName` that get dayOfWeek (number) and log day name into the console. For example it gets `1` and log `Sunday`, `2` and log `Monday`, etc. 
 
 5. Declare a function named `convert2String` that convert a number to string. If number is less that 10, it puts a 0 befor it. Example: `2` => `'02'`
 

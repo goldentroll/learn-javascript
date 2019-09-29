@@ -39,7 +39,7 @@ Date Formatter
 - day: 9
 - dayOfWeek: 2
 
-All variables is number.
+All variables are number.
 
 4. Declare a function named `showDayName` that get dayOfWeek and log day name into the console. For example it gets `1` and log `Monday`
 

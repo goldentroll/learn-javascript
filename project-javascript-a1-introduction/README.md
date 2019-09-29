@@ -22,11 +22,12 @@ Student's Marksheet
 
 ```
 3. Use console.log to log these info in the console.
-|Subject|Full Marks|Pass Marks| Obtained|
-|Subject|Full Marks|Pass Marks| Obtained|
-|Subject|Full Marks|Pass Marks| Obtained|
-|Subject|Full Marks|Pass Marks| Obtained|
-|Subject|Full Marks|Pass Marks| Obtained|
+| Subject  | Full Marks |Pass Marks |Obtained |
+| ------------- | ------------- | ------------- | ------------- |
+| Math  | 100  | 50  | 92  |
+| Math  | 100  | 50  | 92  |
+| Math  | 100  | 50  | 92  |
+| Math  | 100  | 50  | 92  |
 
 ![marksheet.jpg](marksheet.jpg)
 Note:

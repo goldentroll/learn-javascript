@@ -17,7 +17,7 @@ Marksheet
 <html>
 <body>
 <script>
-console.log("Subjects \t Full Marks \t Pass Marks \t Obtained");
+// your code here
 </script>
 </body>
 </html>

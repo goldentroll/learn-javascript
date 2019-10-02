@@ -6,10 +6,10 @@
 </head>
 <body>
     <script>
-        let year = 2019;
-        let month  = 10;
-        let day = 9;
-        let dayOfWeek = 2;
+        const year = 2019;
+        const month  = 10;
+        const day = 9;
+        const dayOfWeek = 2;
         //4. A function that displays the name of day depending on the day of the week.
         function showDayName(dayOfWeek){
             switch(dayOfWeek){
@@ -36,45 +36,45 @@
                 break;
             }
         }
-        let dayName = showDayName(dayOfWeek); // calling the function showDayName
+        const dayName = showDayName(dayOfWeek); // calling the function showDayName
 
         //5. A function that converts a number to string.
-        let userInput = 4;
+        const userInput = 25;
         function convert2String(userInput){
             if (userInput < 10){
                 return `0${userInput}`;
             }
-            return userInput;
+            return userInput + ''; // converts numbers to string.
         }
-        let convert = convert2String(userInput) // calling the function convert2String and assigning it to variable
+        const convert = convert2String(userInput) // calling the function convert2String and assigning it to variable
         console.log(convert); // logging the output of the function to the console.
 
         //6. A function that formats date.
         function formatDate(year, month, day){
-             formatDay = convert2String(day);
-             formatMonth = convert2String(month);
-             formatYear = convert2String(year);
+             const formatDay = convert2String(day);
+             const formatMonth = convert2String(month);
+             const formatYear = convert2String(year);
              return `${formatYear}/${formatMonth}/${formatDay}`;
         }
-        todaysDate = formatDate(2008,2,8); // calling the function formatDate
+        const todaysDate = formatDate(2008,2,8); // calling the function formatDate
         console.log(todaysDate); //logging to the console.
 
         //7. Setting default parameters
         function formatDateChristmas(year = 2020, month = 01, day=01){
             return formatDate(year,month,day);
         }
-        xmas = formatDateChristmas() // calling function formatDateChristmas
+        const xmas = formatDateChristmas() // calling function formatDateChristmas
         console.log(xmas) // logging the output to the console
 
         //8. Calling a function as a parameter in another function.
         function nextYear(year){
             return year + 1;
         }
-        abc = formatDate(nextYear(2006),3,7);
+        const abc = formatDate(nextYear(2006),3,7);
         console.log(abc);
 
         //9. Concised Arrow Function
-        let formatDateConcised = (year, month, day) => formatDate(year, month, day); // declaring a function using concised arrow function
+        const formatDateConcised = (year, month, day) => formatDate(year, month, day); // declaring a function using concised arrow function
         console.log(formatDateConcised(2011,11,5)) // logging the output of the function to tcosole.
     </script>
 

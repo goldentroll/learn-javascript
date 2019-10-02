@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Formatter</title>
+</head>
+<body>
+    <script>
+        const year = 2019;
+        const month  = 10;
+        const day = 9;
+        const dayOfWeek = 2;
+        //4. A function that displays the name of day depending on the day of the week.
+        function showDayName(dayOfWeek){
+            switch(dayOfWeek){
+            case 1:
+                console.log('Sunday');
+                break;
+            case 2:
+                console.log('Monday');
+                break;
+            case 3:
+                console.log('Tuesday');
+                break;
+            case 4:
+                console.log('Wednesday');
+                break;
+            case 5:
+                console.log('Thursday');
+                break;
+            case 6:
+                console.log('Friday');
+                break;
+            default:
+                console.log('Saturday');
+                break;
+            }
+        }
+        const dayName = showDayName(dayOfWeek); // calling the function showDayName
+
+        //5. A function that converts a number to string.
+        const userInput = 25;
+        function convert2String(userInput){
+            if (userInput < 10){
+                return `0${userInput}`;
+            }
+            return userInput + ''; // converts numbers to string.
+        }
+        const convert = convert2String(userInput) // calling the function convert2String and assigning it to variable
+        console.log(convert); // logging the output of the function to the console.
+
+        //6. A function that formats date.
+        function formatDate(year, month, day){
+             const formatDay = convert2String(day);
+             const formatMonth = convert2String(month);
+             const formatYear = convert2String(year);
+             return `${formatYear}/${formatMonth}/${formatDay}`;
+        }
+        const todaysDate = formatDate(2008,2,8); // calling the function formatDate
+        console.log(todaysDate); //logging to the console.
+
+        //7. Setting default parameters
+        function formatDateChristmas(year = 2020, month = 01, day=01){
+            return formatDate(year,month,day);
+        }
+        const xmas = formatDateChristmas() // calling function formatDateChristmas
+        console.log(xmas) // logging the output to the console
+
+        //8. Calling a function as a parameter in another function.
+        function nextYear(year){
+            return year + 1;
+        }
+        const abc = formatDate(nextYear(2006),3,7);
+        console.log(abc);
+
+        //9. Concised Arrow Function
+        const formatDateConcised = (year, month, day) => formatDate(year, month, day); // declaring a function using concised arrow function
+        console.log(formatDateConcised(2011,11,5)) // logging the output of the function to tcosole.
+    </script>
+
+</body>
+</html>

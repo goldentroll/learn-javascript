@@ -1,9 +1,14 @@
 # Project JavaScript B1 Variables
 
-## Requeirements
-
-In this project you need to know following topics:
-Create a Variable: var Create a Variable: let Create a Variable: const Mathematical Assignment Operators The Increment and Decrement Operator String Concatenation with Variables String Interpolation typeof operator Review Variables
+To code this project you need to know: Create a Variable: var
+, Create a Variable: let
+, Create a Variable: const
+, Mathematical Assignment Operators
+, The Increment and Decrement Operator
+, String Concatenation with Variables
+, String Interpolation
+, typeof operator
+, Review Variables
 
 If you are not familier with them please read Learn JavaScript eBook from https://codingwithbasir.com/learn-javascript
 
@@ -24,21 +29,17 @@ College Cost Calculator
   </body>
 </html>
 ```
-3. Define variables for each of these items:
-* Annual college costs: $35000
-* College cost inflation rate:  %5
-* Expected years of attendance: 4
+3. For a 4 years college degree, define two variables:
+* Annual cost: $35000
+* Inflation rate:  %5
 
 All variables are number.
 
-Calculate the Total College Cost formula and log the result into console like this:
+4. Calculate the Total Cost for a 4 years college degree and log it into console like this:
 
-"Annual college costs: ($`anualCost`), College cost inflation rate: (`inflationRate`) and Expected years of attendance(`yearsAttendance`), You have to pay (`collegeCost`)."
+"For a 4 years college degree with Annual cost:($`anualCost`) and Inflation rate: (`inflationRate`), You have to pay (`totalCost`)."
 
-4.Define variables for each of these items:
-* Years until college:  5
-* Annual saving:?
-How much you need to save annually to afford the Total College Cost? You have 5 years (Years until college) to save money.
-Log the result into console with this message:
+5. Imagine you have 5 years to save money for college. How much do you need to save annually to afford the college cost? Log the result into console like this:
 
-"Annual saving sould be (`AnnualSaving`)."
+"You need to save $(`annualSaving`) annually for $(`yearsUntilCollege`) years."
+

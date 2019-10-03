@@ -1,14 +1,10 @@
-# Project JavaScript A1 Marksheet
+# Project JavaScript A1 Introduction
+To code this project you need to know: 
+Console, Comments, Data Types, Arithmetic Operators, String Concatenation, Properties, Methods, Built-in Objects
 
-## Requeirements
-In this project you need to know following topics:
-Console Comments Data Types Arithmetic Operators String Concatenation Properties Methods Built-in Objects
+If you are not familier with them download Learn JavaScript eBook from (https://codingwithbasir.com/learn-javascript)
 
-If you are not familier with them please read Learn JavaScript eBook from https://codingwithbasir.com/learn-javascript
-
-## Project Definition
-
-Marksheet
+## Project Title: Marksheet
 
 1. Create a html file with your name like john.html
 2. Add current code to that file:
@@ -31,8 +27,6 @@ Marksheet
 | Science  | 100  | 50  | 60  |
 | Computer  | 100  | 50  | 40  |
 | Average  | 60  |
-
-
 
 
 Note:

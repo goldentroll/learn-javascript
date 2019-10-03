@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+</head>
+<body>
+    <script>
+        //3. declaration of a global variable
+        const color = 'blue';
+
+        //4. creates a function without parameter.
+        function logColor1(){ // creates a function that does not take a paramter.
+            return console.log(color);
+        }
+
+        //5. creates a function that takes a single parameter.
+        function logColor2(color){
+            return console.log(color);
+        }
+
+        //6. calls a function;
+        logColor2('red');
+
+        //7,8. Creates a function
+        function logColor3(color){
+            if(color === 'green'){
+                let color = 'light green';
+                return console.log(color);
+            }
+             return console.log(color);
+        }
+        // 9. calling the function with 'green' as argument.
+        logColor3('green');
+
+        /* 10. The constant variable 'color' has a global scope. Hence it was accessible by
+         to the different functions when passed in as an argument, despite not being
+         declared within the functions.
+         The variable 'color' declared within the logColor3 function has a local scope and is
+         is not accessible to any other functions in the program. */
+
+    </script>
+
+</body>
+</html>

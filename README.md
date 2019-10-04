@@ -2,7 +2,7 @@
 
 by Basir JD Mentorship
 
-# INTRODUCTION
+## INTRODUCTION
 
 [Project A1 Marksheet](project-javascript-a1-introduction)
 

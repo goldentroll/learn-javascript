@@ -2,7 +2,7 @@
 
 by Basir JD Mentorship
 
-# [Project JavaScript A1 Introduction](tree/master/project-javascript-a1-introduction)
+# [Project JavaScript A1 Introduction](project-javascript-a1-introduction)
 
 Console, Comments, Data Types, Arithmetic Operators, String Concatenation, Properties, Methods, Built-in Objects
 

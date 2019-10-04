@@ -1,7 +1,5 @@
 # Project JavaScript D1 Date Formatter
 
-## Requeirements
-
 - Function Declarations
 - Calling a Function
 - Parameters and Arguments
@@ -12,13 +10,12 @@
 - Arrow Functions
 - Concise Body Arrow Functions
 
-If you are not familier with them please read Learn JavaScript eBook at https://codingwithbasir.com/learn-javascript
+If you are not familier with them please download Learn JavaScript eBook at https://codingwithbasir.com/learn-javascript
 
-## Project Definition
-
-Date Formatter
+## Project Title: Date Formatter
 
 1. Create a html file with your name like john.html
+
 2. Add current code to that file:
 
 ```html
@@ -41,7 +38,7 @@ Date Formatter
 
 All variables are number.
 
-4. Declare a function named `showDayName` that get dayOfWeek (number) and log day name into the console. For example it gets `1` and log `Sunday`, `2` and log `Monday`, etc. 
+4. Declare a function named `showDayName` that get dayOfWeek (number) and log day name into the console. For example it gets `1` and log `Sunday`, `2` and log `Monday`, etc.
 
 5. Declare a function named `convert2String` that convert a number to string. If number is less that 10, it puts a 0 befor it. Example: `2` => `'02'`
 

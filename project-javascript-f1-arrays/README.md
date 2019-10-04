@@ -1,7 +1,5 @@
 # Project JavaScript F1 Shoes Shop
 
-## Requeirements
-
 - Create an Array
 - Accessing Elements
 - Update Elements
@@ -14,11 +12,9 @@
 - Nested Arrays
 - Review Arrays
 
-If you are not familier with them please read Learn JavaScript eBook at https://codingwithbasir.com/learn-javascript
+If you are not familier with them please download Learn JavaScript eBook at https://codingwithbasir.com/learn-javascript
 
-## Project Definition
-
-Shoes Shop
+## Project Title: Shoes Shop
 
 1. Create a html file with your name like john.html
 2. Add current code to that file:

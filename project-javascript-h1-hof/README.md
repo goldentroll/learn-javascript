@@ -1,21 +1,14 @@
-# Project JavaScript G1 Shooping List
+# PROJECT JAVASCRIPT G1 HIGHER-ORDER FUNCTIONS
 
 To code this project you need to know:
-
-Repeating Tasks Manually
-, The For Loop
-, Looping in Reverse
-, Looping through Arrays
-, Nested Loops
-, The While Loop
-, Do...While Statements
-, The break Keyword
+Functions as Data,
+Functions as Parameters
 
 If you are not familier with them please download Learn JavaScript eBook from https://codingwithbasir.com/learn-javascript
 
-## Project Title: Shopping List
+## Project Title: Functions Benchmark
 
-1. Create a html file with your name like john.html
+1. Open VS Code and create a html file with your name like john.html
 2. Add current code to that file:
 
 ```html
@@ -29,20 +22,10 @@ If you are not familier with them please download Learn JavaScript eBook from ht
 </html>
 ```
 
-3. Create a for loop and log odd numbers from 1 to 11:
-4. Create a for loop and log event numbers from 11 to 1 in reverse:
-5. Define an array named `myList` and put these items into it:
+3. Declare function `repeat(func, param, times)` that takes a function `func`, a paramter for the function `param` and number of calls `times`. It should call the function with that parameter for requested times and log run number into console.
 
-- Fruits
-- Milk
-- Cheese
-- Baken
-- Bread
+4. Declare function `repeatDuration(repeat, times, func, param)` that takes a repeat function `repeat`, times of calling `times`, function to be called `func` and paratemters to this function `param`. It should call the function and log its running time in milliseconds.
 
-4. Log all item in the array into console with a for loop.
+5) define function `factorial` that gets a number and return its fcatorial and log it into console.
 
-5. Create new array named `fruits` and set it to`[['apple','orange','banana],['coconut','cumbersome'],['starbery','bluebery']]`
-
-6. Create nested for loops to log all items inside `fruits` in seperate lines.
-
-7. Use do while to log `myList` items in reverse mode. First log `Bread`, then `Baken` , etc
+6. Call repeatDuration to log running time of `factorial` for parameter 20 for 1000 times.

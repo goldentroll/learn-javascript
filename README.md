@@ -17,6 +17,8 @@ by Basir JD Mentorship
 
 ## VARIABLES
 
+[Project B1 College Cost Calculator](project-javascript-b1-variables)
+
 - Create a Variable: var
 - Create a Variable: let
 - Create a Variable: const
@@ -25,9 +27,10 @@ by Basir JD Mentorship
 - String Concatenation with Variables
 - String Interpolation
 - typeof operator
-- Review Variables
 
 ## CONDITIONAL STATEMENTS
+
+[Project C1 Dog Food Recommender](project-javascript-c1-conditional-statements)
 
 - The if keyword
 - If...Else Statements
@@ -42,6 +45,8 @@ by Basir JD Mentorship
 
 ## FUNCTIONS
 
+[Project D1 Date Formatter](project-javascript-d1-functions)
+
 - Function Declarations
 - Calling a Function
 - Parameters and Arguments
@@ -55,14 +60,17 @@ by Basir JD Mentorship
 
 ## SCOPE
 
+[Project E1 Color Picker](project-javascript-e1-scope)
+
 - Blocks and Scope
 - Global Scope
 - Block Scope
 - Scope Pollution
 - Practice Good Scoping
-- Review: Scope
 
 ## ARRAYS
+
+[Project F1 Shoes Shop](project-javascript-f1-arrays)
 
 - Create an Array
 - Accessing Elements
@@ -78,6 +86,8 @@ by Basir JD Mentorship
 
 ## LOOPS
 
+[Project G1 Shopping List](project-javascript-g1-loops)
+
 - Repeating Tasks Manually
 - The For Loop
 - Looping in Reverse
@@ -86,15 +96,17 @@ by Basir JD Mentorship
 - The While Loop
 - Do...While Statements
 - The break Keyword
-- Review
 
 ## HIGHER-ORDER FUNCTIONS
 
+[Project H1 Marksheet](project-javascript-h1-hof)
+
 - Functions as Data
 - Functions as Parameters
-- Review
 
 ## ITERATORS
+
+Wil be soon
 
 - The .forEach() Method
 - The .map() Method
@@ -103,9 +115,10 @@ by Basir JD Mentorship
 - The .reduce() Method
 - Iterator Documentation
 - Choose the Right Iterator
-- Review
 
 ## OBJECTS
+
+Wil be soon
 
 - Creating Object Literals
 - Accessing Properties
@@ -115,12 +128,12 @@ by Basir JD Mentorship
 - Nested Objects
 - Pass By Reference
 - Looping Through Objects
-- Review
 
 ## ADVANCED OBJECTS
 
-The this Keyword
+Wil be soon
 
+- The this Keyword
 - Arrow Functions and this
 - Privacy
 - Getters
@@ -129,9 +142,10 @@ The this Keyword
 - Property Value Shorthand
 - Destructured Assignment
 - Built-in Object Methods
-- Review
 
 ## CLASSES
+
+Wil be soon
 
 - Constructor
 - Instance
@@ -143,9 +157,10 @@ The this Keyword
 - Inheritance IV
 - Inheritance V
 - Static Methods
-- Review: Classes
 
 ## BROWSER COMPATIBILITY AND TRANSPILATION
+
+Wil be soon
 
 - Finding browser compatibility
 - Why ES6?
@@ -155,9 +170,10 @@ The this Keyword
 - .babelrc
 - Babel Source Lib
 - Build
-- Review
 
 ## MODULES
+
+Wil be soon
 
 - Hello Modules
 - Module.exports I
@@ -173,9 +189,10 @@ The this Keyword
 - Import as
 - Combining Export Statements
 - Combining Import Statements
-- Review
 
 ## PROMISES
+
+Wil be soon
 
 - What is a Promise?
 - Constructing a Promise Object
@@ -186,9 +203,10 @@ The this Keyword
 - Chaining Multiple Promises
 - Avoiding Common Mistakes
 - Using Promise.all()
-- Review
 
 ## ASYNC AWAIT
+
+Wil be soon
 
 - The async Keyword
 - Writing async Functions
@@ -196,14 +214,14 @@ The this Keyword
 - Handling Errors
 - Handling Independent Promises
 - Await Promise.all()
-- Review
 
 ## REQUESTS
+
+Wil be soon
 
 - HTTP Requests
 - XHR GET Requests
 - XHR POST Requests
-- Review Requests
 
 ## REQUESTS WITH ES6
 
@@ -211,26 +229,29 @@ The this Keyword
 - fetch() POST Requests
 - async GET Requests
 - async POST Requests
-- Review
 
 ## THE SCRIPT ELEMENT
+
+Wil be soon
 
 - The <script> tag
 - The src attribute
 - How are scripts loaded?
 - Defer attribute
 - Async attribute
-- Review
 
-## DOCUMENT OBJECT MODEL?
+## DOCUMENT OBJECT MODEL
+
+Wil be soon
 
 - The DOM as a Tree Structure
 - Parent Child Relationships in the DOM
 - Nodes and Elements in the DOM
 - Attributes of Element Node
-- Review
 
 ## JAVASCRIPT AND THE DOM
+
+Wil be soon
 
 - The document keyword
 - Tweak an Element
@@ -240,9 +261,10 @@ The this Keyword
 - Remove an Element
 - Interactivity with onclick
 - Traversing the DOM
-- Review
 
 ## DOM EVENTS
+
+Wil be soon
 
 - What is an Event?
 - "Firing" Events
@@ -253,4 +275,3 @@ The this Keyword
 - Event Types
 - Mouse Events
 - Keyboard Events
-- Review

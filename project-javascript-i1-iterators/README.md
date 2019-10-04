@@ -11,7 +11,7 @@ The .forEach() Method
 
 If you are not familier with them please download Learn JavaScript eBook from https://codingwithbasir.com/learn-javascript
 
-## Project Title: Moods Monitor
+## Project Title: Good Mood Actions
 
 1. Create a html file with your name like john.html
 

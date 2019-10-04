@@ -106,7 +106,7 @@ by Basir JD Mentorship
 
 ## ITERATORS
 
-[Project I1 Banner Ads](project-javascript-i1-iterators)
+[Project I1 Good Mood Actions](project-javascript-i1-iterators)
 
 - The .forEach() Method
 - The .map() Method

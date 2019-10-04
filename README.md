@@ -99,14 +99,14 @@ by Basir JD Mentorship
 
 ## HIGHER-ORDER FUNCTIONS
 
-[Project H1 Marksheet](project-javascript-h1-hof)
+[Project H1 Functions Benchmark](project-javascript-h1-hof)
 
 - Functions as Data
 - Functions as Parameters
 
 ## ITERATORS
 
-Wil be soon
+[Project I1 Banner Ads](project-javascript-i1-iterators)
 
 - The .forEach() Method
 - The .map() Method

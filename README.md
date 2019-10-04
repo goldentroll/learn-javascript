@@ -2,9 +2,18 @@
 
 by Basir JD Mentorship
 
-# [INTRODUCTION: Project A1 Marksheet](project-javascript-a1-introduction)
+# INTRODUCTION
 
-Console, Comments, Data Types, Arithmetic Operators, String Concatenation, Properties, Methods, Built-in Objects
+[Project A1 Marksheet](project-javascript-a1-introduction)
+
+- Console
+- Comments
+- Data Types
+- Arithmetic Operators
+- String Concatenation
+- Properties
+- Methods
+- Built-in Objects
 
 ## VARIABLES
 

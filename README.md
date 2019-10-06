@@ -122,7 +122,7 @@
 
 ## OBJECTS
 
-Wil be soon
+[Project I1 Employee](project-javascript-j1-objects)
 
 - Creating Object Literals
 - Accessing Properties

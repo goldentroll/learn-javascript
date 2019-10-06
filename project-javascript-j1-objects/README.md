@@ -1,10 +1,18 @@
 # Project JavaScript J1 OBJECTS
 
 To code this project you need to know:
+Creating Object Literals
+, Accessing Properties
+, Bracket Notation
+, Property Assignment
+, Methods
+, Nested Objects
+, Pass By Reference
+, Looping Through Objects
 
 If you are not familier with them please download Learn JavaScript eBook from https://codingwithbasir.com/learn-javascript
 
-## Project Title: ???
+## Project Title: Employee
 
 1. Create a html file with your name like john.html
 2. Add current code to that file:
@@ -19,6 +27,37 @@ If you are not familier with them please download Learn JavaScript eBook from ht
   </body>
 </html>
 ```
+
+3. Create an `employee` object with Object Literals at define 3 field for `name`, `age`, and `department` and set values for them.
+
+4. Log them into console like this message:
+   "Employee Info: Name: `name`, Age: `age`, Department: `department`"
+
+5. Add a new property to `employee` for `phone number` and set it to `00123456789`. then log it into console like this:
+   "Employee `name` number is `phone number`".
+
+   Note: Use braket notation for `phone number`
+
+6. Define a function name `getPropValue` that get a object and a property and return value of the property in that object.
+
+7. Use this function to log `name` and `phone number` into console.
+
+8. Add a method to `employee` named `showVisitCard()` and log all employee properties into console. Then call this method
+
+9. Add a property named `educations` and set it like this:
+
+```javascript
+employee.educations = {
+  universtiy1: { gpa: 3.5, year: 2019 },
+  universtiy2: { gpa: 4.0, year: 2015 },
+  universtiy3: { gpa: 3.75, year: 2010 },
+  universtiy4: { gpa: 3.0, year: 2005 }
+};
+```
+
+10. Log educations into console using `for in` command.
+
+11. Calculate average of gpa and log it into console.
 
 ## How to deliver this project
 

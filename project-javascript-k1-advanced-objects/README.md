@@ -28,7 +28,20 @@ If you are not familier with them please download Learn JavaScript eBook from ht
 
 5. Define a setter method named gpa. If gpa is less than 0 or greather than 4 , log error else put it into \_gpa field.
 
-6. Create a factory function named courseFactory
+6. Create a factory function named courseFactory. Use arrow function and pass parameters: id, name, credit. It should return an object with these field and
+   method named show to log all field into console.
+
+7. Call this function with parameters (1, "Math", 3, ) and assign to `myCourse` variabel. Show call myCourse.show() and check the result.
+
+8. Check that `myCourse` has `teacher` property, if it has log teacher else log no teacher.
+
+9. Create another object named `courseAddition` and set it to `{teacher: "Dr Mark"}`
+
+10. Use object.assign to merge courseAddition into myCourse.
+
+11. Check that `myCourse` has `teacher` property, if it has log teacher else log no teacher.
+
+12. Show all fields and values into `myCourse` with object.keys
 
 ## How to deliver this project
 
